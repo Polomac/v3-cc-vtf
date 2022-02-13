@@ -8,9 +8,12 @@
   },
   "dependencies": {
     "@mdi/font": "5.9.55",
+    "axios": "^0.26.0",
     "core-js": "^3.8.3",
     "roboto-fontface": "*",
+    "s-vuex-class": "^0.4.1",
     "vue": "^3.2.13",
+    "vue-axios": "^3.4.1",
     "vue-class-component": "^8.0.0-0",
     "vue-property-decorator": "^9.1.2",
     "vue-router": "^4.0.3",

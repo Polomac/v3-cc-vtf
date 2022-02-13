@@ -27,7 +27,7 @@
           <v-list-item-icon>
             <v-icon>mdi-account</v-icon>
           </v-list-item-icon>
-          <v-list-item-title><router-link to="/about">About</router-link></v-list-item-title>
+          <v-list-item-title><router-link to="/test">About</router-link></v-list-item-title>
         </v-list-item>
       </v-list>
     </v-navigation-drawer>
@@ -53,6 +53,8 @@ export default class App extends Vue {
 </script>
 
 <style lang="scss">
+@import './assets/styles/main.scss';
+
 .toolbar-title {
   color: white;
   font-weight: 500;
