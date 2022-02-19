@@ -39,7 +39,7 @@
 
 <script lang="ts">
 import { Options, Vue } from 'vue-class-component';
-import { Watch } from 'vue-property-decorator'
+import { Watch } from 'vue-property-decorator';
 
 export default class App extends Vue {
   drawer = false
@@ -51,7 +51,6 @@ export default class App extends Vue {
   }
 }
 </script>
-
 <style lang="scss">
 @import './assets/styles/main.scss';
 
@@ -73,5 +72,10 @@ export default class App extends Vue {
     }
   }
   
+}
+
+.v-main {
+  height: 90vh;
+  overflow: hidden;
 }
 </style>

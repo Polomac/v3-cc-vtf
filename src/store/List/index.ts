@@ -7,6 +7,7 @@ export default {
   /* eslint-disable */
   state: () => ({
     list: [],
+    time: null,
   }),
   mutations,
   actions,
