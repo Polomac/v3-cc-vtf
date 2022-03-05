@@ -29,6 +29,12 @@
           </v-list-item-icon>
           <v-list-item-title><router-link to="/test">About</router-link></v-list-item-title>
         </v-list-item>
+        <v-list-item>
+          <v-list-item-icon>
+            <v-icon>mdi-cog</v-icon>
+          </v-list-item-icon>
+          <v-list-item-title><router-link to="/setup">Setup</router-link></v-list-item-title>
+        </v-list-item>
       </v-list>
     </v-navigation-drawer>
     <v-main>

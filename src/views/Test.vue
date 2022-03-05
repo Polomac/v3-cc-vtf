@@ -40,7 +40,7 @@ export default class HomeView extends Vue {
     console.log('SCROLLED');
   }
 
-  created () {
+  mounted () {
     this.getList()
   }
 }
