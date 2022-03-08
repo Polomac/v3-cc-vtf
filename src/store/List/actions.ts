@@ -4,7 +4,9 @@ export default {
     console.log('fired')
     try {
       const resp = await postsApi.getPosts();
-      commit('setList', resp.data)
+      setTimeout(() => {
+        commit('setList', resp.data)
+      }, 1000)
     }
     catch(e) {
       commit('setGlobalErr', e.message, { root: true })
